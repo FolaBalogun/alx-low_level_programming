@@ -1,9 +1,9 @@
 #include <stlib.h>
 #include <time.h>
 #include <stdio.h>
-/* comment */
+/* more headers goes there */
 
-/* betty style doc */
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
@@ -15,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* code */
+	/* your code goes there */
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
