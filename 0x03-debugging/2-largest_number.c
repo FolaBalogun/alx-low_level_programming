@@ -11,6 +11,9 @@ int largest_number(int a, int b, int c)
 {
 int largest;
 
+printf("Enter three different numbers: ");
+scanf("%lf %lf %lf", a, b, c);
+
 if (a > b && a > c)
 {
 largest = a;
