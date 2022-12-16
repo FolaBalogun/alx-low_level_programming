@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
 int _putchar(char c);
+=======
+>>>>>>> a04d1da25d15bb743f2dd509477da7a066ddbc3e
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
