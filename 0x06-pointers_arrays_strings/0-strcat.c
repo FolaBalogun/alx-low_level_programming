@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - cocatenates two strings
+ * _strcat - cocatenates two strings
  * @dest: copy to
  * @src: copy from
  * Return: pointer to dest
