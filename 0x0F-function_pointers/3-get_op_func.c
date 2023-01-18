@@ -3,9 +3,9 @@
 
 #include <stdlib.h>
 /**
- * get_op_func - Selects correct function to perform operation asked by user.
- * @s: The operator passed as argument.
- * Return: A pointer to the function corresponding to the operator given as a parameter.
+ * get_op_func - Selects correct function to perform operation asked by user
+ * @s: The operator passed as argument
+ * Return: Pointer to a functn corresponding to the operator given as parameter
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -19,6 +19,7 @@ op_t ops[] = {
 };
 
 int i = 0;
+
 while (ops[i].op != NULL && *(ops[i].op) != *s)
 i++;
 
