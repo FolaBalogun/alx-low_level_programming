@@ -38,5 +38,5 @@ break;
 }
 printf("%02hhx ", arr[i]);
 }
-return 0;
+return (0);
 }
